@@ -1,0 +1,31 @@
+{
+  "name": "binance-api",
+  "version": "1.0.0",
+  "description": "NodeJS Binance.com API client",
+  "keywords": [
+    "api",
+    "btc",
+    "bitcoin",
+    "binance",
+    "crypto"
+  ],
+  "author": "Nico Wegener (https://github.com/cff0x)",
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {
+    "got": "^7.1.0",
+    "qs": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cff0x/npm-binance-api"
+  },
+  "main": "binance.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/cff0x/npm-binance-api/issues",
+    "email": "nico@codefox.me"
+  }
+}
