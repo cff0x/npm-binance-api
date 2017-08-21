@@ -21,7 +21,7 @@ const signRequestData = (data, api_secret) => {
 	const hash          = new crypto.createHash('sha256');
 	
 	const hash_digest   = hash.update(encodeURIComponent(data)+'|'+api_secret).digest('hex');
-	data.timestamp = date.now()
+	data.timestamp = Date.now()
 	data.signature = hash_digest
 	return encodeURIComponent(data);
 };
