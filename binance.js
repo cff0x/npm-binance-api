@@ -12,7 +12,7 @@ const methods = {
 const defaults = {
 	url     : 'https://binance.com',
 	api_v1  : '/api/v1/',
-	api_exchange_public : '/exchange/public/'
+	api_exchange_public : '/exchange/public/',
 	timeout : 5000,
 };
 
